@@ -1,0 +1,224 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../images/wallpaper.jpg);
+	background-size: 100%;
+}
+.clear{
+	clear: both;
+}
+#box{
+	width: 1000px;
+	height: 350px;
+	background: white;
+	margin: 300px auto 100px auto;
+	padding: 40px;
+}
+.left{
+	float: left;
+	width: 450px;
+	height: 330px;
+	margin-right: 90px;
+}
+.left .header,.right .header{
+	width: 80px;
+	height: 30px;
+	border-bottom: 4px solid forestgreen;
+}
+.left .header span,.right .header span{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+}
+/*表单部分*/
+i{
+	font-style:normal;
+}
+a{
+	text-decoration: none;
+}
+label{
+	font-size:16px;
+}
+.container{
+	width:1200px;
+	margin:0px auto;
+}
+.register{
+	width:500px;
+	height: auto;
+	margin:0px auto;
+	padding-top:40px;
+	position:relative;
+}
+.register-box{
+	width:100%;
+	height: 50px;
+	padding-bottom: 30px;
+}
+.register-box .box{
+	height:50px;
+	line-height: 80px;
+	border-radius: 5px;
+	position: relative;
+}
+.register-box .box input{
+	width:300px;
+	height: 30px;
+	border:1px solid lightgray;
+	border-radius: 5px;
+	font-size:12px;
+	padding-left:20px;
+}
+/*验证信息结果项*/
+.register-box .tip{
+	padding-left:10px;
+	width: 100%;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+/*提示信息图标*/
+.register-box .tip i{
+	width:20px;
+	height:20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.register-box .tip span{
+	color:gray;
+}
+/*提示信息默认样式*/
+.register-box .tip.hide{
+	display: none;
+}
+/*提交按钮*/
+#btn{
+	cursor: pointer;
+	border:none;
+	font-size:16px;
+	width:150px;
+	height: 40px;
+	margin: 10px 140px;
+	color:white;
+	border-radius: 5px;
+	background:  forestgreen;
+}
+/*默认的盒子状态*/
+.register-box .box{
+	height:50px;
+	line-height: 50px;
+	padding-left:10px;
+	border-radius: 5px;
+	position: relative;
+}
+/*box--输入信息错误*/
+.register-box .box.error{
+	border:1px solid red;
+}
+/*box--输入信息正确*/
+.register-box .box.right i{
+	width:20px;
+	height: 20px;
+	background: url(img/right.png) center center no-repeat;
+	position: absolute;
+	top:50%;
+	right:10px;
+	margin-top:-10px;
+}
+/*提示信息样式--tip*/
+/*获取焦点---默认样式*/
+.register-box .tip.default i{
+	background: url(img/default.png) center center no-repeat;
+}
+.register-box .tip.default span{
+	color:gray;
+}
+/*tip--错误样式*/
+.register-box .tip.error i{
+	background: url(img/error.png) center center no-repeat;
+}
+.register-box .tip.error span{
+	color:red;
+}
+/*tip---密码等级*/
+/*弱*/
+.register-box .tip.ruo i{
+	background: url(img/ruo.png) center center no-repeat;
+}
+/*中*/
+.register-box .tip.zhong i{
+	background: url(img/zhong.png) center center no-repeat;
+}
+/*强*/
+.register-box .tip.qiang i{
+	background: url(img/qiang.png) center center no-repeat;
+}
+.right{
+	float: left;
+	width: 450px;
+	height: 330px;
+}
+.right .method{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.right .method span{
+	cursor: pointer;
+	width: 170px;
+	height: 40px;
+	float: left;
+	display: block;
+	margin: 10px;
+	/*border: 1px solid #e3e3e1;*/
+	background-image: url(../images/head.png);
+	background-position: -310px -220px;
+}
+.right .method span:nth-child(1){
+	width: 160px;
+	background-position: -300px -122px;
+}
+.right .method span:nth-child(2){
+	width: 180px;
+	background-position: -460px -122px;
+}
+.right .method span:nth-child(3){
+	width: 160px;
+	background-position: -300px -178px;
+}
+.right .method span:nth-child(4){
+	width: 180px;
+	background-position: -460px -178px;
+}
+.right .method span:nth-child(5){
+	width: 160px;
+	background-position: -300px -234px;
+}
+.right .method span:nth-child(1):hover{
+	background-position: -700px -122px;
+}
+.right .method span:nth-child(2):hover{
+	background-position: -860px -122px;
+}
+.right .method span:nth-child(3):hover{
+	background-position: -700px -178px;
+}
+.right .method span:nth-child(4):hover{
+	background-position: -860px -178px;
+}
+.right .method span:nth-child(5):hover{
+	background-position: -700px -234px;
+}
+.yiyou{
+	width: 150px;
+	height: 20px;
+	font-size: 12px;
+	position: relative;
+	top: 30px;
+	left: 330px;
+}
